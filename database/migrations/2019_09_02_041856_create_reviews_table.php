@@ -13,8 +13,6 @@ class CreateReviewsTable extends Migration
      */
     public function up()
     {
-        Schema::dropIfExists('reviews');
-
         Schema::create('reviews', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->bigInteger('product_id')->unsigned()->index();
