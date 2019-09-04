@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Model;
-namespace App\Model\Review;
+
+use App\Model\Review;
 
 use Illuminate\Database\Eloquent\Model;
 
