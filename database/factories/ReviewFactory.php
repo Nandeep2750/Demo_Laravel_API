@@ -13,7 +13,7 @@ $factory->define(Review::class, function (Faker $faker) {
         {
             return Product::all()->random();
         },
-        'custromer' => $faker->name,
+        'customer' => $faker->name,
         'review' => $faker->paragraph,
         'star' => $faker->numberBetween(0,5)        
     ];
